@@ -1,0 +1,287 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Playlist</title>
+    <link rel="icon" type="icon" href="/images/spotify.png" />
+    <link rel="stylesheet" href="style-song-list.css" />
+  </head>
+  <body>
+    <div class="sidebar">
+      <div class="logo">
+        <a href="#">
+          <a href="index.html">
+            <img
+              src="https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_CMYK_Green.png"
+              title="Spotify"
+              alt="Logo"
+          /></a>
+        </a>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fa-solid fa-house"></span>
+              <a href="./index.html">Home</a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="fa-solid fa-magnifying-glass"></span>
+              <a href="./search.html">Search</a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="fa-solid fa-book"></span>
+              <a href="./your-library.html">Your Library</a>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="fa-solid fa-square-plus"></span>
+              <a href="./create-playlists.html">Create Playlists</a>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="fa-solid fa-heart"></span>
+              <a href="./liked-songs.html">Liked Songs</a>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="policies">
+        <ul>
+          <li>
+            <a
+              href="https://www.spotify.com/in-en/legal/cookies-policy/"
+              target="_blank"
+              >Cookies</a
+            >
+          </li>
+          <!--<li>
+              <a href="#">Privacy</a>
+            </li>-->
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-container">
+      <div class="topbar">
+        <div class="prev-next-buttons">
+          <button
+            type="button"
+            class="fa-solid fa-chevron-left"
+            title="Go backward"
+          ></button>
+          <button
+            type="button"
+            class="fa-solid fa-chevron-right"
+            title="Go forward"
+          ></button>
+        </div>
+
+        <div class="navbar">
+          <ul>
+            <li>
+              <a href="#">Sign Up</a>
+            </li>
+          </ul>
+          <a href="login.html"> <button type="button">Log In</button></a>
+        </div>
+      </div>
+
+      <div class="content">
+        <img src="\cover.jpg" alt="photo" />
+
+        <div class="para">
+          <p>Playlist</p>
+          <br />
+          <h3>All out 2010s</h3>
+          <br />
+          <span>The Biggest songs of the 2010s.</span>
+          <br />
+          <div class="logo">
+            <img
+              src="/images/spotify-logo-png-7078.png"
+              title="Spotify"
+              alt="Spotify"
+            />
+            <a href="#">Spotify</a>
+            <p><b>.</b></p>
+            <p>10 songs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="div">
+        <div class="play">
+          <i class="fa-solid fa-play"></i>
+        </div>
+        <div class="like">
+          <i class="fa-regular fa-heart" title="Save Your Library"></i>
+        </div>
+        <div class="dots">
+          <i
+            class="fa-solid fa-ellipsis"
+            title="More options for All Out 2010s"
+          ></i>
+        </div>
+      </div>
+
+      <div class="songItemContainer">
+        <div class="songItm">
+          <span class="sno">#</span>
+          <span class="songName">Title</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >Duration <i class="fa-solid fa-clock-three"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">1</span>
+
+          <img src="/images/weekend cover.jpg" alt="1" />
+
+          <span class="songName">Starboy</span>
+
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:24
+              <i id="0" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">2</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >06:44
+              <i id="1" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">3</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:05
+              <i id="2" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">4</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:10
+              <i id="3" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">5</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >02:41
+              <i id="4" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">6</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >02:55
+              <i id="5" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">7</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:31
+              <i id="6" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">8</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >04:08
+              <i id="7" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">9</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName">Starboy</span>
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:04
+              <i id="8" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+        <div class="songItem">
+          <span class="sno">10</span>
+          <img src="/images/weekend cover.jpg" alt="1" />
+          <span class="songName"
+            >Wake Up In The Sky - Gucci Mane, Bruno Mars, Kodak Black</span
+          >
+          <span class="songlistPlay"
+            ><span class="timestamp"
+              >03:35
+              <i id="9" class="far songItemPlay fa-play-circle"></i></span
+          ></span>
+        </div>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        min="0"
+        value="0"
+        max="100"
+      />
+      <div class="icons">
+        <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+        <i class="fa-solid fa-2x fa-circle-play" id="masterPlay"></i>
+        <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+      </div>
+      <div class="songInfo">
+        <img src="/playing.gif" width="42px" alt="" id="gif" />
+        <span id="masterSongName"
+          >Wake Up In The Sky - Gucci Mane, Bruno Mars, Kodak Black</span
+        >
+      </div>
+    </div>
+
+    <script src="song-list.js"></script>
+    <script
+      src="https://kit.fontawesome.com/c6c4351f7d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

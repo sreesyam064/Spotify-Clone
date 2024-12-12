@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color:  #171515;
+    font-family: 'Montserrat', sans-serif ;
+}
+.sidebar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 153px;
+    background-color:black ;
+    padding: 24px;
+}
+.sidebar .logo img {
+    width: 130px;
+}
+.sidebar .navigation ul {
+    list-style: none;
+    margin-top: 20px;
+}
+.sidebar .navigation ul li {
+    padding: 10px 0px;
+}
+.sidebar .navigation ul li a {
+    color: #b3b3b3 ;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.sidebar .navigation ul li a:hover,
+.sidebar .navigation ul li a:active,
+.sidebar .navigation ul li a:focus {
+    color: #ffffff;
+}
+.sidebar .navigation ul li .fa {
+    color: #b3b3b3;
+}
+.sidebar .navigation ul li .fa {
+    font-size: 40px;
+    margin-right: 30px;
+}
+.sidebar .navigation ul li a:hover .fa:hover,
+.sidebar .navigation ul li a:hover .fa:active,
+.sidebar .navigation ul li a:hover .fa:focus {
+    color: #ffffff;
+}
+.sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+}
+.sidebar .policies ul {
+    list-style: none;
+}
+.sidebar .policies ul li {
+    padding-bottom: 5px;
+}
+.sidebar .policies ul li a {
+    color: #b3b3b3;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 10px;
+}
+.sidebar .policies ul li a:hover,
+.sidebar .policies ul li a:active,
+.sidebar .policiesul li a:focus {
+    text-decoration: underline;
+}
+
+.main-container {
+    margin-left: 200px;
+    /*margin-bottom: 100px;*/
+}
+.topbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #0e0d0d;
+    padding: 10px 30px;
+}
+.topbar .prev-next-buttons button {
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+    margin-top: 7px;
+}
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+.topbar .navbar ul {
+    list-style: none;
+}
+.topbar .navbar ul li {
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+} 
+.topbar .navbar ul li a {
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.topbar .navbar ul li a:hover,
+.topbar .navbar ul i a:active,
+.topbar .navbar ul li a:focus {
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.topbar .navbar button {
+    background-color: #ffffff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.topbar .navbar button:hover,
+.topbar .navbar button:active,
+.topbar .navbar button:focus {
+    background-color: #f2f2f2;
+}
+.main-container .content {
+    padding: 40px 40px;
+    background-color: #120e5d;
+}
+.main-container .content img {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+.main-container .content .para {
+    padding: 40px 40px;
+    margin-left: 230px;
+}
+.content .para p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.content .para h3 {
+    font-size: 95px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-top: -15px;
+    margin-bottom: -15px;
+}
+.main-container .content span {
+    text-align: center;
+    color: #7a7a7a;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content .para .logo {
+    margin-top: 11px;
+    margin-bottom: -20px;
+    display: flex;
+}
+.content .para .logo img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+.content .para .logo a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+.content .para .logo p {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+.div {
+    display: flex;
+    background-color: #0b064e;
+}
+.div .play{
+    position: relative;
+    font-size: 27px;
+    background-color: rgb(38, 156, 38);
+    border-radius: 100%;
+    padding: 18px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+}
+.div .like{
+    position: relative;
+    font-size: 34px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 37px;
+    color: #b1b0b0;
+}
+.div .dots{
+    position: relative;
+    font-size: 30px;
+    color: #b1b0b0;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 25px;
+}
+
+/*songContaioner*/
+
+.songItem {
+    height: 50px;
+    display: flex;
+    color: #7a7a7a;
+    margin: 0 40px;
+    
+    align-items: center;
+    
+}
+.songItm {
+    height: 50px;
+    display: flex;
+    color: #7a7a7a;
+    background-color: 171515;
+    margin: 0px 40px;
+    align-items: center;
+    position: sticky;
+    top: 66px;
+    border-bottom: 1px solid grey;
+}
+.songItem .sno {
+    margin-left: 16px;
+    font-weight: 700;
+}
+.songItm .sno {
+    margin-left: 16px;
+    font-weight: 700;
+} 
+.songItem img {
+    max-width: 40px;
+    max-height: 40px;
+    
+    margin-left: 25px;
+    border-radius: 3px;
+}
+.songItem .songName {
+   margin-left: 14px;
+   font-weight: 700;
+   color: ghostwhite;
+   font-size: 14px;
+   font-weight: 600;
+}
+.songItm .songName {
+    margin-left: 14px;
+    
+    font-weight: 600;
+    color: #7a7a7a;
+}
+.songlistPlay {
+    position: absolute;
+    right: 6%;
+    font-weight: 700;
+}
+.songItm .songlistPlay {
+    margin-right: -27px;
+    font-weight: 700;
+}
+.songItm .songlistPlay .timestamp i {
+    color: #ffffff;
+    font-size: 20px;
+}
+.timestamp i {
+    cursor: pointer;
+    opacity: 1;
+    margin-left: 14px;
+    color: #ffffff;
+    font-size: 18px;
+}
+.songItem .songlistPlay .timestamp i:hover {
+    opacity: 1;
+    color: #ffffff;
+    font-size: 19px;
+    margin-left: 13px;
+}
+.songInfo {
+    position: absolute;
+    left: 5vw;
+    margin-top: 20px;
+}
+.songInfo img {
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+@media only screen and (max-width: 1100px) {
+    body {
+        background-color: #000;
+    }
+}
+.bottom {
+    position: sticky;
+    bottom: 0;
+    height: 100px;
+    background-color: #090909;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#myProgressBar {
+    width: 90%;
+    cursor: pointer;
+}
+.icons {
+    margin-top: 16px;
+}
+.icons i {
+    cursor: pointer;
+}

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+}
+body header img{
+    width: 190px;
+    display: block;
+    margin: auto;
+    padding: 24px;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+.content .socialmedia .btn {
+    display: flex;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 12px 52px;
+    height: 46px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.content .socialmedia .button1 .btn {
+    
+    background-color: #3273f7;
+    color: #ffffff;
+}
+.content .socialmedia .button2 .btn  {
+    
+    background-color: #111112;
+    color: #ffffff;
+}
+.content .socialmedia .button3 .btn  {
+   
+    background-color:#ffffff;
+    border: 1px solid grey;
+    color: grey;
+}
+.content .socialmedia .button4 .btn {
+   
+    background-color: #ffffff;
+    color: grey;
+    border: 1px solid grey;
+    font-size: 17px;
+}
+.content .socialmedia .button1 .btn span,
+.content .socialmedia .button2 .btn span,
+.content .socialmedia .button3 .btn span
+ {
+    margin: auto;
+}
+.content .socialmedia .button4 .btn span {
+    margin: auto;    
+}
+.content .socialmedia .button3 .btn button:hover
+.content .socialmedia .button4 .btn button:hover {
+    border-color: #000;
+    background-color: #3273f7;
+}
+
+ 
+.content h4 {
+    overflow: hidden;
+    text-align: center;
+}
+h4:before,
+h4:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h4:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h4:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.username {
+    padding-bottom: 2px;
+}
+.username input[type=text] {
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    padding: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 46px;
+    width: 500px;
+}
+.password input[type=text] {
+    float: left;
+    display: flex;
+    box-sizing: border-box;
+    padding: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid grey;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    height: 46px;
+    width: 500px;
+}
+.username span {
+    font-weight: 700;
+    display: flex;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.password span {
+    font-weight: 700;
+    font-size: 13px;
+    box-sizing: border-box;
+}
+.password button {
+    background-color: #fff;
+    color: darkslategrey;
+    border: none;
+    display: block;
+    float: right;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 7px 7px;
+    margin-top: -58px;
+    margin-right: 13px;
+}
+.forget {
+    box-sizing: border-box;
+    color: inherit;
+    font-weight: 500;
+}
+.login  button {
+    float: right;
+    width: 94px;
+    height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    background-color: #07a80f;
+    color: #ffffff;
+    border-radius: 30px;
+}
+.login button:hover {
+    height: 45px;
+    width: 96px;
+    font-size: 17px;
+}
+.content hr {
+    margin-top: 72px;
+    color: grey;
+
+}
+.content .button5 .btn {
+    display: flex;
+    border: 1px solid grey;
+    background-color: #ffffff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 12px 52px;
+    height: 46px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.content .button5 .btn span {
+    margin: auto;
+    color: grey;
+}
+.content .button5  .span {
+    margin: 21px auto;
+    text-align: center;    
+    justify-content: center;
+    font-size: 17px;
+    font-weight: 700;
+    box-sizing: border-box;
+}
+.content .button5 button:hover {
+    border-color: #000;
+}
